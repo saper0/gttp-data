@@ -1,0 +1,1075 @@
+{
+"arcs": "r02_0_0_W1_C2_K20_F10_T7_LRS_T_directLRS.arcs",
+"commodities": [
+{
+"group": 1,
+"id": 0,
+"lifetime": -1,
+"properties": {
+"V": 0.3,
+"W": 0.172
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 1,
+"lifetime": -1,
+"properties": {
+"V": 1.56,
+"W": 1.763
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 2,
+"lifetime": -1,
+"properties": {
+"V": 0.01,
+"W": 0.004
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 3,
+"lifetime": -1,
+"properties": {
+"V": 0.19,
+"W": 0.116
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 4,
+"lifetime": -1,
+"properties": {
+"V": 0.09,
+"W": 0.059
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 5,
+"lifetime": -1,
+"properties": {
+"V": 0.07,
+"W": 0.069
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 6,
+"lifetime": -1,
+"properties": {
+"V": 0.11,
+"W": 0.078
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 7,
+"lifetime": -1,
+"properties": {
+"V": 0.22,
+"W": 0.235
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 8,
+"lifetime": -1,
+"properties": {
+"V": 0.28,
+"W": 0.286
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 9,
+"lifetime": -1,
+"properties": {
+"V": 0.53,
+"W": 0.15
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 10,
+"lifetime": 2,
+"properties": {
+"V": 0.31,
+"W": 0.03
+},
+"type": "F"
+},
+{
+"group": 0,
+"id": 11,
+"lifetime": 5,
+"properties": {
+"V": 1.22,
+"W": 0.839
+},
+"type": "F"
+},
+{
+"group": 1,
+"id": 12,
+"lifetime": 3,
+"properties": {
+"V": 0.12,
+"W": 0.101
+},
+"type": "F"
+},
+{
+"group": 0,
+"id": 13,
+"lifetime": 4,
+"properties": {
+"V": 0.04,
+"W": 0.03
+},
+"type": "F"
+},
+{
+"group": 0,
+"id": 14,
+"lifetime": 3,
+"properties": {
+"V": 1.1,
+"W": 1.003
+},
+"type": "F"
+},
+{
+"group": 0,
+"id": 15,
+"lifetime": 1,
+"properties": {
+"V": 0.3,
+"W": 0.13
+},
+"type": "F"
+},
+{
+"group": 1,
+"id": 16,
+"lifetime": 5,
+"properties": {
+"V": 0.58,
+"W": 0.336
+},
+"type": "F"
+},
+{
+"group": 1,
+"id": 17,
+"lifetime": 2,
+"properties": {
+"V": 0.09,
+"W": 0.024
+},
+"type": "F"
+},
+{
+"group": 1,
+"id": 18,
+"lifetime": 3,
+"properties": {
+"V": 0.12,
+"W": 0.068
+},
+"type": "F"
+},
+{
+"group": 0,
+"id": 19,
+"lifetime": 2,
+"properties": {
+"V": 0.2,
+"W": 0.219
+},
+"type": "F"
+}
+],
+"instance_properties": [
+"single_tariff",
+"multi_source",
+"capacitated"
+],
+"nodes": [
+{
+"capacity_handling": {
+"inc": {
+"L": -1
+},
+"out": {
+"L": -1
+},
+"tot": {
+"L": -1
+}
+},
+"capacity_storage": {
+"F": [
+174
+],
+"N": [
+198
+]
+},
+"data": 47,
+"facility_type": "warehouse",
+"id": 0,
+"region": "Budapest",
+"stocks": {
+"1": [
+6,
+0,
+6,
+0,
+6,
+0,
+0
+],
+"2": [
+5504,
+5504,
+5504,
+5504,
+5504,
+5504,
+0
+],
+"4": [
+29,
+29,
+29,
+29,
+29,
+29,
+0
+],
+"8": [
+59,
+59,
+59,
+59,
+59,
+59,
+0
+],
+"9": [
+60,
+60,
+60,
+60,
+60,
+60,
+0
+],
+"11": [
+20,
+0,
+20,
+0,
+20,
+0,
+0
+],
+"13": [
+145,
+0,
+145,
+0,
+147,
+0,
+0
+],
+"14": [
+11,
+0,
+11,
+0,
+11,
+0,
+0
+],
+"15": [
+193,
+193,
+193,
+193,
+193,
+193,
+0
+],
+"19": [
+88,
+0,
+88,
+0,
+88,
+0,
+0
+]
+},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": -1
+},
+"out": {
+"L": -1
+},
+"tot": {
+"L": -1
+}
+},
+"capacity_storage": {
+"F": [
+305
+],
+"N": [
+164
+]
+},
+"data": 135,
+"facility_type": "warehouse",
+"id": 1,
+"region": "Wien",
+"stocks": {
+"0": [
+151,
+0,
+151,
+0,
+151,
+0,
+0
+],
+"3": [
+74,
+0,
+74,
+0,
+74,
+0,
+0
+],
+"5": [
+311,
+311,
+311,
+311,
+311,
+311,
+0
+],
+"6": [
+60,
+60,
+60,
+60,
+60,
+60,
+0
+],
+"7": [
+73,
+0,
+73,
+0,
+73,
+0,
+0
+],
+"10": [
+428,
+0,
+428,
+0,
+428,
+0,
+0
+],
+"12": [
+217,
+217,
+217,
+217,
+217,
+217,
+0
+],
+"16": [
+66,
+66,
+66,
+66,
+66,
+66,
+0
+],
+"17": [
+32,
+32,
+32,
+32,
+32,
+32,
+0
+],
+"18": [
+209,
+209,
+209,
+209,
+209,
+209,
+0
+]
+},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": 2
+},
+"out": {
+"L": 2
+},
+"tot": {
+"L": 4
+}
+},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 40,
+"facility_type": "crossdock",
+"id": 2,
+"region": "Budapest",
+"stocks": {},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": 2
+},
+"out": {
+"L": 2
+},
+"tot": {
+"L": 4
+}
+},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 133,
+"facility_type": "crossdock",
+"id": 3,
+"region": "Wien",
+"stocks": {},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": 2,
+"S": 2
+},
+"out": {
+"L": 2,
+"S": 2
+},
+"tot": {
+"L": 4,
+"S": 4
+}
+},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 552,
+"facility_type": "port",
+"id": 4,
+"region": "Wien",
+"stocks": {},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": 2,
+"S": 2
+},
+"out": {
+"L": 2,
+"S": 2
+},
+"tot": {
+"L": 4,
+"S": 4
+}
+},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 554,
+"facility_type": "port",
+"id": 5,
+"region": "Budapest",
+"stocks": {},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": 2,
+"R": 2
+},
+"out": {
+"L": 2,
+"R": 2
+},
+"tot": {
+"L": 4,
+"R": 4
+}
+},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 564,
+"facility_type": "trainstation",
+"id": 6,
+"region": "Wien",
+"stocks": {},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": 2,
+"R": 2
+},
+"out": {
+"L": 2,
+"R": 2
+},
+"tot": {
+"L": 4,
+"R": 4
+}
+},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 579,
+"facility_type": "trainstation",
+"id": 7,
+"region": "Budapest",
+"stocks": {},
+"type": "facility"
+},
+{
+"capacity_handling": {},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 46,
+"facility_type": "",
+"id": 8,
+"region": "Budapest",
+"stocks": {
+"0": [
+0,
+-123,
+0,
+-128,
+0,
+-131,
+0
+],
+"3": [
+0,
+-63,
+0,
+-63,
+0,
+-58,
+0
+],
+"5": [
+0,
+-269,
+-262,
+-288,
+-290,
+-264,
+-249
+],
+"6": [
+0,
+-47,
+-52,
+-50,
+-48,
+-50,
+-47
+],
+"7": [
+0,
+-65,
+0,
+-58,
+0,
+-68,
+0
+],
+"10": [
+0,
+-371,
+0,
+-378,
+0,
+-318,
+0
+],
+"12": [
+0,
+-184,
+-194,
+-164,
+-176,
+-182,
+-156
+],
+"16": [
+0,
+-57,
+-60,
+-50,
+-57,
+-48,
+-55
+],
+"17": [
+0,
+-23,
+-30,
+-28,
+-27,
+-25,
+-30
+],
+"18": [
+0,
+-208,
+-142,
+-196,
+-202,
+-180,
+-153
+]
+},
+"type": "demand"
+},
+{
+"capacity_handling": {},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 138,
+"facility_type": "",
+"id": 9,
+"region": "Wien",
+"stocks": {
+"1": [
+0,
+-4,
+0,
+-5,
+0,
+-6,
+0
+],
+"2": [
+0,
+-4927,
+-4499,
+-4180,
+-4244,
+-5363,
+-4610
+],
+"4": [
+0,
+-22,
+-24,
+-29,
+-24,
+-25,
+-25
+],
+"8": [
+0,
+-47,
+-43,
+-47,
+-48,
+-52,
+-53
+],
+"9": [
+0,
+-55,
+-51,
+-54,
+-46,
+-56,
+-53
+],
+"11": [
+0,
+-16,
+0,
+-18,
+0,
+-17,
+0
+],
+"13": [
+0,
+-135,
+0,
+-139,
+0,
+-147,
+0
+],
+"14": [
+0,
+-8,
+0,
+-8,
+0,
+-9,
+0
+],
+"15": [
+0,
+-164,
+-175,
+-166,
+-128,
+-156,
+-174
+],
+"19": [
+0,
+-75,
+0,
+-79,
+0,
+-71,
+0
+]
+},
+"type": "demand"
+},
+{
+"capacity_handling": {},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 614,
+"facility_type": "",
+"id": 10,
+"region": "",
+"stocks": {},
+"type": "bin"
+}
+],
+"other": {
+"c_properties": [
+"V",
+"W"
+],
+"c_properties_n": 2,
+"c_types": [
+"N",
+"F"
+],
+"c_types_n": 2,
+"co2_costs_per_g": 0.0001,
+"n_arcs": 116,
+"n_nodes_base": 11,
+"storage_mode": [
+"C"
+],
+"time_periods": 7,
+"transport_modes": [
+"L",
+"R",
+"S"
+],
+"weight_cost": 1,
+"weight_green": 0
+},
+"tariffs": [
+{
+"id": 0,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.8,
+"cost_variable": 0.005,
+"start_y": 0
+},
+{
+"cost_base": 4.07664,
+"cost_fixed": 0.72,
+"cost_variable": 0.0045000000000000005,
+"start_y": 5
+},
+{
+"cost_base": 7.35328,
+"cost_fixed": 0.64,
+"cost_variable": 0.004,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 1,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.838,
+"cost_variable": 0.005,
+"start_y": 0
+},
+{
+"cost_base": 4.24764,
+"cost_fixed": 0.7542,
+"cost_variable": 0.0045000000000000005,
+"start_y": 5
+},
+{
+"cost_base": 7.65728,
+"cost_fixed": 0.6704,
+"cost_variable": 0.004,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 2,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.5,
+"cost_variable": 0,
+"start_y": 0
+},
+{
+"cost_base": 2.25,
+"cost_fixed": 0.45,
+"cost_variable": 0.0,
+"start_y": 5
+},
+{
+"cost_base": 4.0,
+"cost_fixed": 0.4,
+"cost_variable": 0.0,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 3,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.553,
+"cost_variable": 0,
+"start_y": 0
+},
+{
+"cost_base": 2.4885,
+"cost_fixed": 0.4977,
+"cost_variable": 0.0,
+"start_y": 5
+},
+{
+"cost_base": 4.424,
+"cost_fixed": 0.4424,
+"cost_variable": 0.0,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 4,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.3,
+"cost_variable": 0,
+"start_y": 0
+},
+{
+"cost_base": 1.35,
+"cost_fixed": 0.27,
+"cost_variable": 0.0,
+"start_y": 5
+},
+{
+"cost_base": 2.4,
+"cost_fixed": 0.24,
+"cost_variable": 0.0,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 5,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.436,
+"cost_variable": 0,
+"start_y": 0
+},
+{
+"cost_base": 1.962,
+"cost_fixed": 0.3924,
+"cost_variable": 0.0,
+"start_y": 5
+},
+{
+"cost_base": 3.488,
+"cost_fixed": 0.3488,
+"cost_variable": 0.0,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 6,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0,
+"cost_variable": 0.16,
+"start_y": 0
+}
+],
+"property_type": "V"
+},
+{
+"id": 7,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0,
+"cost_variable": 0.32,
+"start_y": 0
+}
+],
+"property_type": "V"
+},
+{
+"id": 9,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0,
+"cost_variable": 0,
+"start_y": 0
+}
+],
+"property_type": "V"
+},
+{
+"id": 9,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0,
+"cost_variable": 0,
+"start_y": 0
+}
+],
+"property_type": "V"
+}
+]
+}

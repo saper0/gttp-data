@@ -1,0 +1,1122 @@
+{
+"arcs": "r02_0_0_W4_C8_K20_F10_T7_L_T.arcs",
+"commodities": [
+{
+"group": 2,
+"id": 0,
+"lifetime": -1,
+"properties": {
+"V": 0.3,
+"W": 0.274
+},
+"type": "N"
+},
+{
+"group": 3,
+"id": 1,
+"lifetime": -1,
+"properties": {
+"V": 1.56,
+"W": 0.679
+},
+"type": "N"
+},
+{
+"group": 5,
+"id": 2,
+"lifetime": -1,
+"properties": {
+"V": 0.01,
+"W": 0.006
+},
+"type": "N"
+},
+{
+"group": 4,
+"id": 3,
+"lifetime": -1,
+"properties": {
+"V": 0.19,
+"W": 0.052
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 4,
+"lifetime": -1,
+"properties": {
+"V": 0.09,
+"W": 0.051
+},
+"type": "N"
+},
+{
+"group": 6,
+"id": 5,
+"lifetime": -1,
+"properties": {
+"V": 0.07,
+"W": 0.077
+},
+"type": "N"
+},
+{
+"group": 2,
+"id": 6,
+"lifetime": -1,
+"properties": {
+"V": 0.11,
+"W": 0.053
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 7,
+"lifetime": -1,
+"properties": {
+"V": 0.22,
+"W": 0.205
+},
+"type": "N"
+},
+{
+"group": 5,
+"id": 8,
+"lifetime": -1,
+"properties": {
+"V": 0.28,
+"W": 0.026
+},
+"type": "N"
+},
+{
+"group": 4,
+"id": 9,
+"lifetime": -1,
+"properties": {
+"V": 0.53,
+"W": 0.271
+},
+"type": "N"
+},
+{
+"group": 4,
+"id": 10,
+"lifetime": 1,
+"properties": {
+"V": 0.31,
+"W": 0.027
+},
+"type": "F"
+},
+{
+"group": 2,
+"id": 11,
+"lifetime": 5,
+"properties": {
+"V": 1.22,
+"W": 1.053
+},
+"type": "F"
+},
+{
+"group": 0,
+"id": 12,
+"lifetime": 5,
+"properties": {
+"V": 0.12,
+"W": 0.042
+},
+"type": "F"
+},
+{
+"group": 3,
+"id": 13,
+"lifetime": 1,
+"properties": {
+"V": 0.04,
+"W": 0.005
+},
+"type": "F"
+},
+{
+"group": 7,
+"id": 14,
+"lifetime": 2,
+"properties": {
+"V": 1.1,
+"W": 0.416
+},
+"type": "F"
+},
+{
+"group": 2,
+"id": 15,
+"lifetime": 2,
+"properties": {
+"V": 0.3,
+"W": 0.289
+},
+"type": "F"
+},
+{
+"group": 5,
+"id": 16,
+"lifetime": 1,
+"properties": {
+"V": 0.58,
+"W": 0.63
+},
+"type": "F"
+},
+{
+"group": 6,
+"id": 17,
+"lifetime": 2,
+"properties": {
+"V": 0.09,
+"W": 0.083
+},
+"type": "F"
+},
+{
+"group": 0,
+"id": 18,
+"lifetime": 4,
+"properties": {
+"V": 0.12,
+"W": 0.14
+},
+"type": "F"
+},
+{
+"group": 6,
+"id": 19,
+"lifetime": 2,
+"properties": {
+"V": 0.2,
+"W": 0.1
+},
+"type": "F"
+}
+],
+"instance_properties": [
+"single_tariff",
+"multi_source",
+"capacitated"
+],
+"nodes": [
+{
+"capacity_handling": {
+"inc": {
+"L": -1
+},
+"out": {
+"L": -1
+},
+"tot": {
+"L": -1
+}
+},
+"capacity_storage": {
+"F": [
+169
+],
+"N": [
+44
+]
+},
+"data": 40,
+"facility_type": "warehouse",
+"id": 0,
+"region": "Budapest",
+"stocks": {
+"1": [
+14,
+0,
+14,
+0,
+14,
+0,
+0
+],
+"13": [
+2837,
+2837,
+2837,
+2837,
+2837,
+2837,
+0
+]
+},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": -1
+},
+"out": {
+"L": -1
+},
+"tot": {
+"L": -1
+}
+},
+"capacity_storage": {
+"F": [
+19
+],
+"N": [
+197
+]
+},
+"data": 43,
+"facility_type": "warehouse",
+"id": 1,
+"region": "Budapest",
+"stocks": {
+"2": [
+3096,
+3096,
+3096,
+3096,
+3096,
+3096,
+0
+],
+"8": [
+356,
+356,
+356,
+356,
+356,
+356,
+0
+],
+"16": [
+20,
+0,
+20,
+0,
+20,
+0,
+0
+]
+},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": -1
+},
+"out": {
+"L": -1
+},
+"tot": {
+"L": -1
+}
+},
+"capacity_storage": {
+"F": [
+105
+],
+"N": [
+7
+]
+},
+"data": 46,
+"facility_type": "warehouse",
+"id": 2,
+"region": "Budapest",
+"stocks": {
+"5": [
+56,
+56,
+56,
+56,
+56,
+56,
+0
+],
+"17": [
+199,
+199,
+199,
+199,
+199,
+199,
+0
+],
+"19": [
+239,
+0,
+239,
+0,
+239,
+0,
+0
+]
+},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": -1
+},
+"out": {
+"L": -1
+},
+"tot": {
+"L": -1
+}
+},
+"capacity_storage": {
+"F": [
+49
+],
+"N": [
+48
+]
+},
+"data": 47,
+"facility_type": "warehouse",
+"id": 3,
+"region": "Budapest",
+"stocks": {},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": -1
+},
+"out": {
+"L": -1
+},
+"tot": {
+"L": -1
+}
+},
+"capacity_storage": {
+"F": [
+298
+],
+"N": [
+171
+]
+},
+"data": 131,
+"facility_type": "warehouse",
+"id": 4,
+"region": "Wien",
+"stocks": {
+"3": [
+470,
+470,
+470,
+470,
+470,
+470,
+0
+],
+"9": [
+24,
+0,
+24,
+0,
+24,
+0,
+0
+],
+"10": [
+545,
+545,
+545,
+545,
+545,
+545,
+0
+]
+},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": -1
+},
+"out": {
+"L": -1
+},
+"tot": {
+"L": -1
+}
+},
+"capacity_storage": {
+"F": [
+22
+],
+"N": [
+85
+]
+},
+"data": 136,
+"facility_type": "warehouse",
+"id": 5,
+"region": "Wien",
+"stocks": {
+"4": [
+430,
+430,
+430,
+430,
+430,
+430,
+0
+],
+"7": [
+107,
+108,
+107,
+107,
+107,
+107,
+0
+],
+"12": [
+19,
+19,
+19,
+19,
+19,
+19,
+0
+],
+"18": [
+102,
+0,
+102,
+0,
+102,
+0,
+0
+]
+},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": -1
+},
+"out": {
+"L": -1
+},
+"tot": {
+"L": -1
+}
+},
+"capacity_storage": {
+"F": [
+19
+],
+"N": [
+72
+]
+},
+"data": 137,
+"facility_type": "warehouse",
+"id": 6,
+"region": "Wien",
+"stocks": {
+"0": [
+66,
+0,
+66,
+0,
+66,
+0,
+0
+],
+"6": [
+232,
+0,
+232,
+0,
+232,
+0,
+0
+],
+"11": [
+2,
+0,
+2,
+0,
+2,
+0,
+0
+],
+"15": [
+25,
+25,
+25,
+25,
+25,
+25,
+0
+]
+},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": -1
+},
+"out": {
+"L": -1
+},
+"tot": {
+"L": -1
+}
+},
+"capacity_storage": {
+"F": [
+55
+],
+"N": [
+0
+]
+},
+"data": 138,
+"facility_type": "warehouse",
+"id": 7,
+"region": "Wien",
+"stocks": {
+"14": [
+37,
+0,
+37,
+0,
+37,
+0,
+0
+]
+},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": 2
+},
+"out": {
+"L": 2
+},
+"tot": {
+"L": 4
+}
+},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 44,
+"facility_type": "crossdock",
+"id": 8,
+"region": "Budapest",
+"stocks": {},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": 2
+},
+"out": {
+"L": 2
+},
+"tot": {
+"L": 4
+}
+},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 135,
+"facility_type": "crossdock",
+"id": 9,
+"region": "Wien",
+"stocks": {},
+"type": "facility"
+},
+{
+"capacity_handling": {},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 48,
+"facility_type": "",
+"id": 10,
+"region": "Budapest",
+"stocks": {
+"0": [
+0,
+-62,
+0,
+-58,
+0,
+-53,
+0
+],
+"3": [
+0,
+-397,
+-366,
+-407,
+-397,
+-436,
+-439
+],
+"4": [
+0,
+-351,
+-326,
+-331,
+-419,
+-360,
+-335
+],
+"6": [
+0,
+-202,
+0,
+-192,
+0,
+-215,
+0
+],
+"7": [
+0,
+-91,
+-108,
+-90,
+-94,
+-92,
+-86
+],
+"9": [
+0,
+-20,
+0,
+-19,
+0,
+-19,
+0
+],
+"10": [
+0,
+-473,
+-458,
+-438,
+-456,
+-426,
+-486
+],
+"11": [
+0,
+-2,
+0,
+-2,
+0,
+-2,
+0
+],
+"12": [
+0,
+-14,
+-15,
+-16,
+-17,
+-17,
+-17
+],
+"14": [
+0,
+-30,
+0,
+-29,
+0,
+-27,
+0
+],
+"15": [
+0,
+-18,
+-20,
+-21,
+-23,
+-22,
+-17
+],
+"18": [
+0,
+-87,
+0,
+-93,
+0,
+-79,
+0
+]
+},
+"type": "demand"
+},
+{
+"capacity_handling": {},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 132,
+"facility_type": "",
+"id": 11,
+"region": "Wien",
+"stocks": {
+"1": [
+0,
+-12,
+0,
+-13,
+0,
+-12,
+0
+],
+"2": [
+0,
+-2465,
+-2896,
+-2684,
+-2733,
+-2298,
+-2624
+],
+"5": [
+0,
+-41,
+-47,
+-39,
+-52,
+-49,
+-47
+],
+"8": [
+0,
+-319,
+-269,
+-289,
+-298,
+-256,
+-306
+],
+"13": [
+0,
+-2544,
+-2311,
+-2317,
+-2408,
+-2461,
+-2411
+],
+"16": [
+0,
+-18,
+0,
+-16,
+0,
+-18,
+0
+],
+"17": [
+0,
+-153,
+-187,
+-199,
+-135,
+-187,
+-193
+],
+"19": [
+0,
+-206,
+0,
+-175,
+0,
+-216,
+0
+]
+},
+"type": "demand"
+},
+{
+"capacity_handling": {},
+"capacity_storage": {
+"F": [
+0
+],
+"N": [
+0
+]
+},
+"data": 614,
+"facility_type": "",
+"id": 12,
+"region": "",
+"stocks": {},
+"type": "bin"
+}
+],
+"other": {
+"c_properties": [
+"V",
+"W"
+],
+"c_properties_n": 2,
+"c_types": [
+"N",
+"F"
+],
+"c_types_n": 2,
+"co2_costs_per_g": 0.0001,
+"n_arcs": 788,
+"n_nodes_base": 13,
+"storage_mode": [
+"C"
+],
+"time_periods": 7,
+"transport_modes": [
+"L",
+"R",
+"S"
+],
+"weight_cost": 1,
+"weight_green": 0
+},
+"tariffs": [
+{
+"id": 0,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.8,
+"cost_variable": 0.005,
+"start_y": 0
+},
+{
+"cost_base": 4.07664,
+"cost_fixed": 0.72,
+"cost_variable": 0.0045000000000000005,
+"start_y": 5
+},
+{
+"cost_base": 7.35328,
+"cost_fixed": 0.64,
+"cost_variable": 0.004,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 1,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.838,
+"cost_variable": 0.005,
+"start_y": 0
+},
+{
+"cost_base": 4.24764,
+"cost_fixed": 0.7542,
+"cost_variable": 0.0045000000000000005,
+"start_y": 5
+},
+{
+"cost_base": 7.65728,
+"cost_fixed": 0.6704,
+"cost_variable": 0.004,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 2,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.5,
+"cost_variable": 0,
+"start_y": 0
+},
+{
+"cost_base": 2.25,
+"cost_fixed": 0.45,
+"cost_variable": 0.0,
+"start_y": 5
+},
+{
+"cost_base": 4.0,
+"cost_fixed": 0.4,
+"cost_variable": 0.0,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 3,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.553,
+"cost_variable": 0,
+"start_y": 0
+},
+{
+"cost_base": 2.4885,
+"cost_fixed": 0.4977,
+"cost_variable": 0.0,
+"start_y": 5
+},
+{
+"cost_base": 4.424,
+"cost_fixed": 0.4424,
+"cost_variable": 0.0,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 4,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.3,
+"cost_variable": 0,
+"start_y": 0
+},
+{
+"cost_base": 1.35,
+"cost_fixed": 0.27,
+"cost_variable": 0.0,
+"start_y": 5
+},
+{
+"cost_base": 2.4,
+"cost_fixed": 0.24,
+"cost_variable": 0.0,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 5,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.436,
+"cost_variable": 0,
+"start_y": 0
+},
+{
+"cost_base": 1.962,
+"cost_fixed": 0.3924,
+"cost_variable": 0.0,
+"start_y": 5
+},
+{
+"cost_base": 3.488,
+"cost_fixed": 0.3488,
+"cost_variable": 0.0,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 6,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0,
+"cost_variable": 0.16,
+"start_y": 0
+}
+],
+"property_type": "V"
+},
+{
+"id": 7,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0,
+"cost_variable": 0.32,
+"start_y": 0
+}
+],
+"property_type": "V"
+},
+{
+"id": 9,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0,
+"cost_variable": 0,
+"start_y": 0
+}
+],
+"property_type": "V"
+},
+{
+"id": 9,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0,
+"cost_variable": 0,
+"start_y": 0
+}
+],
+"property_type": "V"
+}
+]
+}

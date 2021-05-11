@@ -1,0 +1,788 @@
+{
+"arcs": "r02_0_0_W1_C2_K20_F0_T7_L_L_direct.arcs",
+"commodities": [
+{
+"group": 1,
+"id": 0,
+"lifetime": -1,
+"properties": {
+"V": 0.3,
+"W": 0.172
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 1,
+"lifetime": -1,
+"properties": {
+"V": 1.56,
+"W": 1.763
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 2,
+"lifetime": -1,
+"properties": {
+"V": 0.01,
+"W": 0.004
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 3,
+"lifetime": -1,
+"properties": {
+"V": 0.19,
+"W": 0.116
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 4,
+"lifetime": -1,
+"properties": {
+"V": 0.09,
+"W": 0.059
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 5,
+"lifetime": -1,
+"properties": {
+"V": 0.07,
+"W": 0.069
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 6,
+"lifetime": -1,
+"properties": {
+"V": 0.11,
+"W": 0.078
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 7,
+"lifetime": -1,
+"properties": {
+"V": 0.22,
+"W": 0.235
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 8,
+"lifetime": -1,
+"properties": {
+"V": 0.28,
+"W": 0.286
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 9,
+"lifetime": -1,
+"properties": {
+"V": 0.53,
+"W": 0.15
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 10,
+"lifetime": -1,
+"properties": {
+"V": 0.31,
+"W": 0.03
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 11,
+"lifetime": -1,
+"properties": {
+"V": 1.22,
+"W": 0.839
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 12,
+"lifetime": -1,
+"properties": {
+"V": 0.12,
+"W": 0.101
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 13,
+"lifetime": -1,
+"properties": {
+"V": 0.04,
+"W": 0.03
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 14,
+"lifetime": -1,
+"properties": {
+"V": 1.1,
+"W": 1.003
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 15,
+"lifetime": -1,
+"properties": {
+"V": 0.3,
+"W": 0.13
+},
+"type": "N"
+},
+{
+"group": 1,
+"id": 16,
+"lifetime": -1,
+"properties": {
+"V": 0.58,
+"W": 0.336
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 17,
+"lifetime": -1,
+"properties": {
+"V": 0.09,
+"W": 0.024
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 18,
+"lifetime": -1,
+"properties": {
+"V": 0.12,
+"W": 0.068
+},
+"type": "N"
+},
+{
+"group": 0,
+"id": 19,
+"lifetime": -1,
+"properties": {
+"V": 0.2,
+"W": 0.219
+},
+"type": "N"
+}
+],
+"instance_properties": [
+"single_tariff",
+"multi_source"
+],
+"nodes": [
+{
+"capacity_handling": {
+"inc": {
+"L": -1
+},
+"out": {
+"L": -1
+},
+"tot": {
+"L": -1
+}
+},
+"capacity_storage": {
+"N": [
+448
+]
+},
+"data": 47,
+"facility_type": "warehouse",
+"id": 0,
+"region": "Budapest",
+"stocks": {
+"1": [
+6,
+0,
+6,
+0,
+6,
+0,
+0
+],
+"2": [
+5504,
+5504,
+5504,
+5504,
+5504,
+5504,
+0
+],
+"4": [
+29,
+29,
+29,
+29,
+29,
+29,
+0
+],
+"7": [
+72,
+0,
+72,
+0,
+72,
+0,
+0
+],
+"9": [
+60,
+60,
+60,
+60,
+60,
+60,
+0
+],
+"12": [
+150,
+150,
+150,
+150,
+150,
+150,
+0
+],
+"13": [
+145,
+0,
+145,
+0,
+145,
+0,
+0
+],
+"17": [
+373,
+373,
+373,
+373,
+373,
+373,
+0
+],
+"18": [
+367,
+367,
+367,
+367,
+367,
+367,
+0
+],
+"19": [
+88,
+0,
+88,
+0,
+88,
+0,
+0
+]
+},
+"type": "facility"
+},
+{
+"capacity_handling": {
+"inc": {
+"L": -1
+},
+"out": {
+"L": -1
+},
+"tot": {
+"L": -1
+}
+},
+"capacity_storage": {
+"N": [
+629
+]
+},
+"data": 135,
+"facility_type": "warehouse",
+"id": 1,
+"region": "Wien",
+"stocks": {
+"0": [
+151,
+0,
+151,
+0,
+151,
+0,
+0
+],
+"3": [
+74,
+0,
+74,
+0,
+74,
+0,
+0
+],
+"5": [
+311,
+311,
+311,
+311,
+311,
+311,
+0
+],
+"6": [
+60,
+60,
+60,
+60,
+60,
+60,
+0
+],
+"8": [
+61,
+61,
+61,
+61,
+61,
+61,
+0
+],
+"10": [
+428,
+0,
+428,
+0,
+428,
+0,
+0
+],
+"11": [
+28,
+0,
+28,
+0,
+28,
+0,
+0
+],
+"14": [
+24,
+0,
+24,
+0,
+24,
+0,
+0
+],
+"15": [
+7,
+7,
+7,
+7,
+7,
+7,
+0
+],
+"16": [
+43,
+43,
+43,
+43,
+43,
+43,
+0
+]
+},
+"type": "facility"
+},
+{
+"capacity_handling": {},
+"capacity_storage": {
+"N": [
+0
+]
+},
+"data": 46,
+"facility_type": "",
+"id": 2,
+"region": "Budapest",
+"stocks": {
+"0": [
+0,
+-107,
+0,
+-123,
+0,
+-107,
+0
+],
+"3": [
+0,
+-62,
+0,
+-62,
+0,
+-58,
+0
+],
+"5": [
+0,
+-249,
+-229,
+-260,
+-234,
+-251,
+-244
+],
+"6": [
+0,
+-45,
+-46,
+-51,
+-46,
+-41,
+-44
+],
+"8": [
+0,
+-48,
+-55,
+-55,
+-59,
+-59,
+-49
+],
+"10": [
+0,
+-294,
+0,
+-293,
+0,
+-321,
+0
+],
+"11": [
+0,
+-22,
+0,
+-24,
+0,
+-26,
+0
+],
+"14": [
+0,
+-20,
+0,
+-19,
+0,
+-19,
+0
+],
+"15": [
+0,
+-6,
+-5,
+-5,
+-6,
+-6,
+-5
+],
+"16": [
+0,
+-40,
+-37,
+-37,
+-35,
+-36,
+-38
+]
+},
+"type": "demand"
+},
+{
+"capacity_handling": {},
+"capacity_storage": {
+"N": [
+0
+]
+},
+"data": 138,
+"facility_type": "",
+"id": 3,
+"region": "Wien",
+"stocks": {
+"1": [
+0,
+-6,
+0,
+-6,
+0,
+-5,
+0
+],
+"2": [
+0,
+-3875,
+-4582,
+-4885,
+-5302,
+-4696,
+-4637
+],
+"4": [
+0,
+-26,
+-26,
+-24,
+-26,
+-19,
+-21
+],
+"7": [
+0,
+-68,
+0,
+-72,
+0,
+-66,
+0
+],
+"9": [
+0,
+-52,
+-46,
+-43,
+-57,
+-47,
+-56
+],
+"12": [
+0,
+-131,
+-129,
+-125,
+-121,
+-123,
+-118
+],
+"13": [
+0,
+-119,
+0,
+-128,
+0,
+-130,
+0
+],
+"17": [
+0,
+-334,
+-343,
+-288,
+-319,
+-276,
+-360
+],
+"18": [
+0,
+-301,
+-253,
+-299,
+-312,
+-344,
+-304
+],
+"19": [
+0,
+-67,
+0,
+-67,
+0,
+-77,
+0
+]
+},
+"type": "demand"
+},
+{
+"capacity_handling": {},
+"capacity_storage": {
+"N": [
+0
+]
+},
+"data": 614,
+"facility_type": "",
+"id": 4,
+"region": "",
+"stocks": {},
+"type": "bin"
+}
+],
+"other": {
+"c_properties": [
+"V",
+"W"
+],
+"c_properties_n": 2,
+"c_types": [
+"N"
+],
+"c_types_n": 1,
+"co2_costs_per_g": 0.0001,
+"n_arcs": 38,
+"n_nodes_base": 5,
+"storage_mode": [
+"C"
+],
+"time_periods": 7,
+"transport_modes": [
+"L",
+"R",
+"S"
+],
+"weight_cost": 1,
+"weight_green": 0
+},
+"tariffs": [
+{
+"id": 0,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.8,
+"cost_variable": 0.005,
+"start_y": 0
+},
+{
+"cost_base": 4.07664,
+"cost_fixed": 0.72,
+"cost_variable": 0.0045000000000000005,
+"start_y": 5
+},
+{
+"cost_base": 7.35328,
+"cost_fixed": 0.64,
+"cost_variable": 0.004,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 1,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.5,
+"cost_variable": 0,
+"start_y": 0
+},
+{
+"cost_base": 2.25,
+"cost_fixed": 0.45,
+"cost_variable": 0.0,
+"start_y": 5
+},
+{
+"cost_base": 4.0,
+"cost_fixed": 0.4,
+"cost_variable": 0.0,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 2,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0.3,
+"cost_variable": 0,
+"start_y": 0
+},
+{
+"cost_base": 1.35,
+"cost_fixed": 0.27,
+"cost_variable": 0.0,
+"start_y": 5
+},
+{
+"cost_base": 2.4,
+"cost_fixed": 0.24,
+"cost_variable": 0.0,
+"start_y": 10
+}
+],
+"property_type": "W"
+},
+{
+"id": 3,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0,
+"cost_variable": 0.16,
+"start_y": 0
+}
+],
+"property_type": "V"
+},
+{
+"id": 4,
+"levels": [
+{
+"cost_base": 0,
+"cost_fixed": 0,
+"cost_variable": 0,
+"start_y": 0
+}
+],
+"property_type": "V"
+}
+]
+}
