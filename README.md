@@ -19,3 +19,7 @@ If you use any of this data in your research arcticle, please consider citing ou
 Lukas Gosch, Matthias Prandtstetter, Karl F. Doerner, On Modelling and Solving Green Collaborative Tactical Transportation Planning, *8th International Physical Internet Conference*, June 14-16, 2021, Athens, Greece
 
 DOI link will be provided once the proceedings are published. 
+
+## Notes
+
+**26.5.2021**: More detailed documentation of the individual data files will be uploaded shorty. If you have any questions for now, please contact Lukas Gosch *gosch . lukas (at) gmail . com*
