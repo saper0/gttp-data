@@ -15,7 +15,7 @@ This folder contains all individual instances used in "On Modelling and Solving 
 
 ## Notes
 
-**26.5.2021**: More detailed documentation of the individual data files will be uploaded shorty. If you have any questions for now, please contact Lukas Gosch *gosch . lukas (at) gmail . com*
+**26.5.2021**: More detailed documentation of the individual data files will be uploaded shorty. If you have any questions, please contact Lukas Gosch *gosch . lukas (at) gmail . com*
 
 ## Citation
 If you use any of this data in your research arcticle, please consider citing our paper. It will soon appear at [IPIC2021](https://www.pi.events/) and will be made available in the conferences proceedings.
