@@ -19,9 +19,13 @@ ID is a unique identifyer for each location in the file. Wolfinger et al. [1] ga
 
 ## distances.txt
 
-The first two header rows indicate, which rows correspond to which transport mode. It reads as follows: The first 376.382 data rows correspond to road distances for lorries, the next 72 data rows to distances for ships and the last 2970 data rows to rail distances.
+The first two header rows indicate, which rows correspond to which transport mode. It reads as follows: The first 376.382 data rows correspond to road distances for lorries (L), the next 72 data rows to distances for ships (S), i.e. distances of waterways between ports and the last 2970 data rows concern rail route distances between train stations (T).
 
 A data row has the following format:
 ID1;ID2;Distance [km]
 
 ID1 and ID2 denote the IDs of the connected locations from locations.txt. A connection is assumed to be bidirectional.
+
+Distances of waterways and distances of rail routes have been taken from Wolfinger et al. [1]. Road distances have been recalculated using Ariadne [2].
+
+[2] Matthias Prandtstetter, Markus Straub, and Jakob Puchinger. *On the way to a multi-modal energy-efficient route.* In:IECON2013-39th Annual Conference of the IEEE Industrial Electronics Society. 2013, pp.4779–4784
