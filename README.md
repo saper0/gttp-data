@@ -10,7 +10,7 @@ This folder contains some documentation on i) how the instances (test data) are 
 ## instance-generator
 Python instance generator, documentation on usage accessable with python igen.py -h (developed for python 3.8 or higher).
 
-For other information on the instance generation process, please see [./doc/data.pdf](https://raw.githubusercontent.com/saper0/gttp-data/main/doc/data.pdf). The instances generator needs to be given distances, time and location files as for example given in the *data* directory.
+The instances generator needs to be given distances, time and location files as for example given in the *data* directory. For other information on the instance generation process, please see [./doc/data.pdf](https://raw.githubusercontent.com/saper0/gttp-data/main/doc/data.pdf). 
 
 ## instances
 This folder contains all individual instances (test data) used in "On Modelling and Solving Green Collaborative Tactical Transportation Planning".
