@@ -1,5 +1,5 @@
 """
-Define instance datastructer and instance generator functions.
+Define instance data structure and instance generator functions.
 """
 
 import json
