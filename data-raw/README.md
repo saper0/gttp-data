@@ -15,4 +15,13 @@ There are three types of locations differentiated:
 2. Ports
 3. Train Stations
 
-ID is a unique identifyer for the file. Wolfinger et al. [1] gave only one location for each city region, for this work, we have generated nine additional random addresses for each city region. Furthermore, we have added a size column indicating if the industrial city has a population P of < 100.000 (S), 100.000 <= P < 1.000.000 (M) or P >= 1.000.000 (L).
+ID is a unique identifyer for each location in the file. Wolfinger et al. [1] gave only one location for each city region, so for this work, we have generated nine additional random addresses for each city region. ID' refers to the original ID used by Wolfinger et al. [1]. Furthermore, we have added a size column indicating if the industrial city has a population P of < 100.000 (S), 100.000 <= P < 1.000.000 (M) or P >= 1.000.000 (L).
+
+## distances.txt
+
+The first two header rows indicate, which rows correspond to which transport mode. It reads as follows: The first 376.382 data rows correspond to road distances for lorries, the next 72 data rows to distances for ships and the last 2970 data rows to rail distances.
+
+A data row has the following format:
+ID1;ID2;Distance [km]
+
+ID1 and ID2 denote the IDs of the connected locations from locations.txt. A connection is assumed to be bidirectional.
