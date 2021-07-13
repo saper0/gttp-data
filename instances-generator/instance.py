@@ -338,8 +338,8 @@ class Arc(ArcBase):
 
 
 class Instance:
-    """Instance for the generalized tactical transport planing 
-    with storage problem (GTTPS). """
+    """Instance for the generalized tactical transport planning 
+    problem (GTTP). """
 
     def __init__(self, instance_properties: List[str] = [], 
                  other: Dict[str, Any] = {}) -> None:
