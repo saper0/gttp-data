@@ -1,8 +1,31 @@
 # Introduction
 
-Instance files are named as described the IPIC publication. However, each instance consists of two files, one ending in .arcs which contains row-wise information on arcs in the network design instance and a .json storing all other information (e.g. commodities, nodes). 
+Instance files are named as described the IPIC publication. However, each instance consists of two files, one ending in .arcs which contains row-wise information on arcs in the network design instance and a .json storing all other information (e.g. commodities, nodes).
+
+An instances consists of a list of tariff, commodity, node and arc objects with the relevant class definitions in [../instance-generator/instance.py](../instance-generator/instance.py).
 
 ## .json
 
-All classes in [../instance-generator/instance.py](../instance-generator/instance.py) are directly serialized into the .json file accept 
-See [../instance-generator/instance.py](../instance-generator/instance.py) for a documentation of the individual json-entries. 
+Stores the json-serialized tariff, commoditity and node objects of an instance. For a documentation of the individual entries in the .json, please see the class documentations in [../instance-generator/instance.py](../instance-generator/instance.py). 
+
+It also stores an instances specific *other* dictionary, which has the following important elements:
+
+## .arcs
+
+Stores row-wise the arc information. It follows the following format (the individual entries are documented in the class documention in [../instance-generator/instance.py](../instance-generator/instance.py)):
+
+First 7 columns:
+
+ID node_orig node_dest t_start t_end mode distance 
+
+Next columns repeat for each commodity type in the instance:
+(emissions per transport unit (TU)) (emissions per unit of flow) 
+
+Followed by:
+(costs of handling one TU) (costs of handling one unit of flow)
+
+Again followed by the following list for each commodity type:
+(Capacity in number of TUs installable on this arc) (Volume-capacity of one TU) (Weight-capacity of one TU)
+
+Now, this list is again followed by the following entry for each commodity type:
+(Tariff id)
