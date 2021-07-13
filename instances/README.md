@@ -39,4 +39,4 @@ Again followed by the following list for each commodity type:
 (Capacity in number of TUs installable on this arc) (Volume-capacity of one TU) (Weight-capacity of one TU)
 
 Now, this list is again followed by the following entry for each commodity type:
-(Tariff id)
+(ID of Tariff applied on this arc for a given commodity type)
