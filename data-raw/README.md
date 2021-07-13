@@ -2,7 +2,7 @@
 
 This folder contains the locations as well as distance and time matrices used for this work. The data is partly based upon test instances released [here](https://plis.univie.ac.at/research/a-matheuristic-for-a-multimodal-long-haul-routing-problem/) by Wolfinger et al. [1]. The following sections describe the data files and how they differ from Wolfinger et al. [1] and how they got extended. Depending on what data you are interested in, please consider to cite Wolfinger et al. [1].
 
-[1] David Wolfinger, Fabien Tricoire, and Karl F. Doerner. *A matheuristic for a multimodal long haul routing problem.* In:EURO Journal on Transportation and Logistics Volume 8, Issue 4, 2019, pp.397–433.
+[1] David Wolfinger, Fabien Tricoire, and Karl F. Doerner. *A matheuristic for a multimodal long haul routing problem.* In: EURO Journal on Transportation and Logistics Volume 8, Issue 4, 2019, pp.397–433.
 
 ## locations.txt
 
@@ -28,4 +28,4 @@ ID1 and ID2 denote the IDs of the connected locations from locations.txt. A conn
 
 Distances of waterways and distances of rail routes have been taken from Wolfinger et al. [1]. Road distances have been recalculated using Ariadne [2].
 
-[2] Matthias Prandtstetter, Markus Straub, and Jakob Puchinger. *On the way to a multi-modal energy-efficient route.* In:IECON2013-39th Annual Conference of the IEEE Industrial Electronics Society. 2013, pp.4779–4784
+[2] Matthias Prandtstetter, Markus Straub, and Jakob Puchinger. *On the way to a multi-modal energy-efficient route.* In: IECON2013-39th Annual Conference of the IEEE Industrial Electronics Society. 2013, pp.4779–4784
