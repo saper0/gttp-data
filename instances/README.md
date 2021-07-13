@@ -9,6 +9,11 @@ An instances consists of a list of tariff, commodity, node and arc objects with 
 Stores the json-serialized tariff, commoditity and node objects of an instance. For a documentation of the individual entries in the .json, please see the class documentations in [../instance-generator/instance.py](../instance-generator/instance.py). 
 
 It also stores an instances specific *other* dictionary, which has the following important elements:
+* *time_periods*: Time horizont of instance
+* *n_arcs*: Arcs in time-expanded instance
+* *n_nodes_base*: Nodes in base network, multiply with time_periods to get nodes in time-expanded network
+* *c_types*: List of strings (length 1) of commodity types in instance, its order defines the order of commodity type depending entries in *.arcs* file
+* *c_properties*: List of strings (length 1) of properties of each commodity
 
 ## .arcs
 
