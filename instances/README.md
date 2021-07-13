@@ -12,8 +12,14 @@ It also stores an instances specific *other* dictionary, which has the following
 * *time_periods*: Time horizont of instance
 * *n_arcs*: Arcs in time-expanded instance
 * *n_nodes_base*: Nodes in base network, multiply with time_periods to get nodes in time-expanded network
-* *c_types*: List of strings (length 1) of commodity types in instance, its order defines the order of commodity type depending entries in *.arcs* file
-* *c_properties*: List of strings (length 1) of properties of each commodity
+* *c_types*: List of strings of length 1 of commodity types in instance, its order defines the order of commodity type depending entries in *.arcs* file
+* *c_types_n*: Length of c_types
+* *c_properties*: List of strings of length 1 of properties of each commodity
+* *c_properties_n*: Length of c_properties
+* *co2_costs_per_g*: CO2 costs per gram of CO2e emitted in €
+* *transport_modes*: List of strings of length 1 of what transport modes are included in this instances (lorry: L, rail: R, ship: S)
+* *weight_cost*: Weight given to transport costs objective
+* *weight_green*: Weight given to emission costs objective
 
 ## .arcs
 
