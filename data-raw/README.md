@@ -2,7 +2,7 @@
 
 This folder contains the locations as well as distance and time matrices used for this work. The data is partly based upon test instances released [here](https://plis.univie.ac.at/research/a-matheuristic-for-a-multimodal-long-haul-routing-problem/) by Wolfinger et al. [1]. The following sections describe the data files and how they differ from Wolfinger et al. [1] and how they got extended. Depending on what data you are interested in, please consider to cite Wolfinger et al. [1].
 
-[1] David Wolfinger, Fabien Tricoire, and Karl F. Doerner. *A matheuris-tic for a multimodal long haul routing problem.* In:EURO Journal on Transportation and Logistics8.4(2019), pp.397–433.
+[1] David Wolfinger, Fabien Tricoire, and Karl F. Doerner. *A matheuristic for a multimodal long haul routing problem.* In:EURO Journal on Transportation and Logistics Volume 8, Issue 4, 2019, pp.397–433.
 
 ## locations.txt
 
