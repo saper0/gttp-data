@@ -2,7 +2,7 @@
 This respository stores the data used to produce the results in "On Modelling and Solving Green Collaborative Tactical Transportation Planning".
 
 ## data
-This folder contains distance- and time-matrices of road, rail and ship transport connections as well as the coordinates of all used locations in the danube region.
+This folder contains distance- and time-matrices of road, rail and ship transport connections as well as the coordinates of all used locations in the Danube Region.
 
 ## doc
 This folder contains some documentation on i) how the test data has been generated and ii) cost and emission tables.
