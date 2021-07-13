@@ -5,15 +5,15 @@ This respository stores the data used to produce the results in "On Modelling an
 This folder contains distance- and time-matrices of road, rail and ship transport connections as well as the coordinates of all used locations in the Danube Region.
 
 ## doc
-This folder contains some documentation on i) how the instances are generated and ii) cost and emission tables.
+This folder contains some documentation on i) how the instances (test data) are generated and ii) cost and emission tables.
 
 ## instance-generator
 Python instance generator, documentation on usage accessable with python igen.py -h (developed for python 3.8 or higher).
 
-For other information on the instance generation process, please see [./doc/data.pdf](https://raw.githubusercontent.com/saper0/gttp-data/main/doc/data.pdf).
+For other information on the instance generation process, please see [./doc/data.pdf](https://raw.githubusercontent.com/saper0/gttp-data/main/doc/data.pdf). The instances generator needs to be given distances, time and location files as for example given in the *data* directory.
 
 ## instances
-This folder contains all individual instances used in "On Modelling and Solving Green Collaborative Tactical Transportation Planning".
+This folder contains all individual instances (test data) used in "On Modelling and Solving Green Collaborative Tactical Transportation Planning".
 
 ## Notes
 
