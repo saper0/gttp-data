@@ -1,6 +1,6 @@
 # Introduction
 
-Instance files are named similarly as described the IPIC publication (see below for the naming convention). However, each instance consists of two files, one ending in .arcs which contains row-wise information on arcs in the network design instance and a .json storing all other information (e.g. commodities, nodes).
+Instance files are named similarly as described in the IPIC publication (see below for the exact naming convention). However, each instance consists of two files, one ending in .arcs which contains row-wise information on arcs in the network design instance and a .json storing all other information (e.g. commodities, nodes).
 
 An instances consists of a list of tariff, commodity, node and arc objects with the relevant class definitions in [../instance-generator/instance.py](../instance-generator/instance.py).
 
