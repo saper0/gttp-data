@@ -43,7 +43,7 @@ Now, this list is again followed by the following entry for each commodity type:
 
 ## Naming convention
 
-Instances follow naming scheme r<#>\_<#>\_<#>_W<#>_C<#>_K<#>_F<#>_T<#>_L/LRS_L/T:
+Instances follow the naming scheme r<#>\_<#>\_<#>_W<#>_C<#>_K<#>_F<#>_T<#>_L/LRS_L/T:
 
 * r<#>_<#>_<#>: r< Number of large regions included >\_< Number of medium regions included >\_< Number of small regions included >
 * W<#>: Number of warehouses included for each of the largest regions
@@ -52,5 +52,5 @@ Instances follow naming scheme r<#>\_<#>\_<#>_W<#>_C<#>_K<#>_F<#>_T<#>_L/LRS_L/T
 * F<#>: Number of perishable commodities 
 * T<#>: Time horizont
 * L/LRS: Included transportation modes, either only lorry (L) or lorry, rail (R) and ship (S)
-* L/T: If facilities in instance have no handling constraints (loose, L) or have handling constraints (tight, T)
+* L/T: If the facilities in instance have no handling constraints (loose, L) or have handling constraints (tight, T)
 
