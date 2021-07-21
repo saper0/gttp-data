@@ -43,7 +43,7 @@ Now, this list is again followed by the following entry for each commodity type:
 
 ## Naming convention
 
-Instances follow naming scheme r<#>/_<#>/_<#>_W<#>_C<#>_K<#>_F<#>_T<#>_L/LRS_L/T:
+Instances follow naming scheme r<#>\_<#>\_<#>_W<#>_C<#>_K<#>_F<#>_T<#>_L/LRS_L/T:
 
 * r<#>_<#>_<#>: r< Number of large regions included >_< Number of medium regions included >_< Number of small regions included >
 * W<#>: Number of warehouses included for each of the largest regions
