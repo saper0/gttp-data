@@ -24,7 +24,7 @@ This folder contains all individual instances (test data) used in "On Modelling 
 If you have any questions, please contact Lukas Gosch: *gosch . lukas (at) gmail . com*
 
 ## Citation
-If you use any of this data in your research, please consider citing our paper. You can find it online (free-access) in the [draft proceedings](https://www.pi.events/IPIC2021/sites/default/files/IPIC2021_DRAFT%20PROCEEDINGS_PAPER_POSTER.pdf) (Page 76-92) of the [IPIC2021](https://www.pi.events/). The final conference proceedings will soon be made available. 
+If you use any of this data in your research, please consider citing our paper. You can find it online (free-access) in the [draft proceedings](https://www.pi.events/IPIC2021/sites/default/files/IPIC2021_DRAFT%20PROCEEDINGS_PAPER_POSTER.pdf) (Page 76-92) of the [IPIC2021](https://www.pi.events/). The final conference proceedings will be soon made available. 
 
 Lukas Gosch, Matthias Prandtstetter, Karl F. Doerner, On Modelling and Solving Green Collaborative Tactical Transportation Planning, *8th International Physical Internet Conference*, June 15-16, 2021, Athens, Greece
 
