@@ -1,5 +1,5 @@
 # On Modelling and Solving Green Collaborative Tactical Transportation Planning
-This respository stores data about real intermodal transportation infrastructure between major cities, train stations and ports in the Danube Region. The data has been used to produce the results in "On Modelling and Solving Green Collaborative Tactical Transportation Planning".
+This respository stores data about real intermodal transportation infrastructure between major cities, train stations and ports in the Danube Region. The data has been used to produce the results in our paper "On Modelling and Solving Green Collaborative Tactical Transportation Planning".
 
 ## doc
 This folder contains some documentation on:
